@@ -7,8 +7,8 @@
 }
 
 /* about */
-.pic img{
-  width: 300px;
+#pic img{
+  width: 175px;
   height: 175px;
   
 
@@ -19,7 +19,7 @@
 
 /* Portfolio */
 .gallery img{
-  width: 250px;
+  width: 150px;
   height: 150px;
   margin: 10px;
 }

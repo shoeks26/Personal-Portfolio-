@@ -69,6 +69,7 @@ html{
   top: 30%;
   right: 10%;
 }
+
 .headings{
   font-family: century;
   font-size: 3rem;
@@ -76,6 +77,7 @@ html{
   margin: 40px 0px;
 }
 .btn{
+  margin-top: 20px;
   padding: 10px 35px;
   background-color: transparent;
   border: 1px solid white;
@@ -95,7 +97,7 @@ html{
 /* About me */
 
 #about{
-  display: flex;
+  display: list-item;
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
@@ -115,6 +117,7 @@ html{
 
 
 }
+
 #intro{
   display: flex;
   flex-direction: column;
@@ -127,6 +130,10 @@ html{
   font-size: 2rem;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+#about p{
+  font-size: 1.5rem;
 }
 
 /* Portfolio */
@@ -176,7 +183,7 @@ html{
   text-align: justify;
   padding: 10px;
   border-radius: 15px;
-  background: linear-gradient(to top, rgb(10, 88, 58) 50%, white 50%);
+  background: linear-gradient(to top, rgba(9, 46, 17, 0.959) 50%, white 50%);
   background-size: 100% 200%;
   transition: all .8s;
 }
@@ -184,7 +191,7 @@ html{
   background-position: left bottom;
   color: white;
   border: none; 
-  box-shadow: 0 0 20px rgb(10, 88, 58);
+  box-shadow: 0 0 20px rgba(9, 46, 17, 0.959);
 }
 .box img{
   width: 80px;

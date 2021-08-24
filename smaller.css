@@ -15,9 +15,11 @@
   align-items: center;
 
 }
+
 #pic img{
-  width: 475px;
+  width: 300px;
   height: 300px;
+  
 
 }
 #intro h2{
